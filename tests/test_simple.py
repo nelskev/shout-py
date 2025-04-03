@@ -1,8 +1,8 @@
-from src.example_package_nelskev import text_box
+from src.example_package_nelskev import example
 
 def test_text_box():
     # Test with default parameters
-    result = text_box("Hello world", display=False)
+    result = example.text_box("Hello world", display=False)
     expected = (
         "***************\n"
         "* Hello world *\n"
@@ -11,7 +11,7 @@ def test_text_box():
     assert result == expected
 
     # Test with custom width
-    result = text_box("Hello world", width=20, display=False)
+    result = example.text_box("Hello world", width=20, display=False)
     expected = (
         "********************\n"
         "*     Hello world   *\n"
@@ -20,7 +20,7 @@ def test_text_box():
     assert result == expected
 
     # Test with margin
-    result = text_box("Hello world", margin=1, display=False)
+    result = example.text_box("Hello world", margin=1, display=False)
     expected = (
         "\n"
         "***************\n"

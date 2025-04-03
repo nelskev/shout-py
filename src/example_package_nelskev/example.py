@@ -77,11 +77,11 @@ def text_box(text, icon='*', width: int=None, margin : int=None, outside_margin 
 
 
 
-if __name__ == "__main__":
-    # text_box("Hello world", display=True)
+# if __name__ == "__main__":
+#     # text_box("Hello world", display=True)
 
 
-    new_text_box = text_box("Hello world", display=True, outside_margin=2, margin=0 )
-    print(new_text_box)
+#     new_text_box = text_box("Hello world", display=True, outside_margin=2, margin=0 )
+#     print(new_text_box)
     
     
