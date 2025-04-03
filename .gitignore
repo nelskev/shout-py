@@ -1,0 +1,9 @@
+myenv/
+
+dist/
+
+pyproject.toml
+pyproject.toml
+.DS_Store
+pyproject.toml
+temp.txt
