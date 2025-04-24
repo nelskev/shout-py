@@ -11,7 +11,7 @@ def text_box(text, icon='*', width: int=None, margin : int=None, outside_margin 
     """
     Prints the given text in a centered area surrounded by a box of icons.
 
-    Args:
+    Arguments:
         text (str): The text to be printed.
         icon (str, optional): The icon to be used for the box. Default: '*'.
         width (int, optional): The width of the box. If not provided, the width will be automatically calculated based on the text length. Default: Length of longest line + 4
@@ -19,7 +19,7 @@ def text_box(text, icon='*', width: int=None, margin : int=None, outside_margin 
         outside_margin (int, optional): Adds empty lines to top of bottom outside of box. Default: None
         display (bool, optional): Prints output along with returning it. Default: False
 
-    Returns:
+    Return values:
         output
     """
 
